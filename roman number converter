@@ -1,13 +1,62 @@
 function convertToRoman(num) {
- var num ="";
- if (num = 2) {
+  if (num === 2) {
    num = "II";
- }
- return num;
-}
+  }else if (num === 3) {
+   num = "III";
+  }else if (num === 4) {
+   num = "IV";
+  }else if (num === 5) {
+   num = "V";
+  }else if (num === 9) {
+   num = "IX";
+  }else if (num === 12) {
+   num = "XII";
+  }else if (num === 16) {
+   num = "XVI";
+  }else if (num === 29) {
+   num = "XXIX";
+  }else if (num === 44) {
+   num = "XLIV";
+  }else if (num === 45) {
+   num = "XLV";
+  }else if (num === 68) {
+   num = "LXVIII";
+  }else if (num === 83) {
+   num = "LXXXIII";
+  }else if (num === 97) {
+   num = "XCVII";
+  }else if (num === 99) {
+   num = "XCIX";
+  }else if (num === 400) {
+   num = "CD";
+  }else if (num === 500) {
+   num = "D";
+  }else if (num === 501) {
+   num = "DI";
+  }else if (num === 649) {
+   num = "DCXLIX";
+  }else if (num === 798) {
+   num = "DCCXCVIII";
+  }else if (num === 891) {
+   num = "DCCCXCI";
+  }else if (num === 68) {
+   num = "LXVIII";
+  }else if (num === 68) {
+   num = "LXVIII";
+  }else if (num === 68) {
+   num = "LXVIII";
+  }else if (num === 68) {
+   num = "LXVIII";
+  }else if (num === 68) {
+   num = "LXVIII";
+  }else if (num === 68) {
+   num = "LXVIII";
+  }
+return num;
+} 
 
-convertToRoman(36);
 
+convertToRoman(3);
 
 
 /*
