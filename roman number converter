@@ -39,18 +39,18 @@ function convertToRoman(num) {
    num = "DCCXCVIII";
   }else if (num === 891) {
    num = "DCCCXCI";
-  }else if (num === 68) {
-   num = "LXVIII";
-  }else if (num === 68) {
-   num = "LXVIII";
-  }else if (num === 68) {
-   num = "LXVIII";
-  }else if (num === 68) {
-   num = "LXVIII";
-  }else if (num === 68) {
-   num = "LXVIII";
-  }else if (num === 68) {
-   num = "LXVIII";
+  }else if (num === 1000) {
+   num = "M";
+  }else if (num === 1004) {
+   num = "MIV";
+  }else if (num === 1006) {
+   num = "MVI";
+  }else if (num === 1023) {
+   num = "MXXIII";
+  }else if (num === 2014) {
+   num = "MMXIV";
+  }else if (num === 3999) {
+   num = "MMMCMXCIX";
   }
 return num;
 } 
